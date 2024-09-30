@@ -1,18 +1,18 @@
 package reporting
 
 import (
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/es"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/jsonexporter"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/jsonl"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/markdown"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/sarif"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/splunk"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/filters"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/gitea"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/github"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/gitlab"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/jira"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/linear"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/exporters/es"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/exporters/jsonexporter"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/exporters/jsonl"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/exporters/markdown"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/exporters/sarif"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/exporters/splunk"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/trackers/filters"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/trackers/gitea"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/trackers/github"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/trackers/gitlab"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/trackers/jira"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/trackers/linear"
 	"github.com/projectdiscovery/retryablehttp-go"
 )
 

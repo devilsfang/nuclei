@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/contextargs"
+	"github.com/devilsfang/nuclei/v3/pkg/output"
+	"github.com/devilsfang/nuclei/v3/pkg/protocols/common/contextargs"
 	"github.com/projectdiscovery/utils/errkit"
 )
 

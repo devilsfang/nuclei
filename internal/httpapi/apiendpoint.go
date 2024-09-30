@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/compiler"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/devilsfang/nuclei/v3/pkg/js/compiler"
+	"github.com/devilsfang/nuclei/v3/pkg/types"
 )
 
 type Concurrency struct {

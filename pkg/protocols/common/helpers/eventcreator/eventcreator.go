@@ -1,11 +1,11 @@
 package eventcreator
 
 import (
+	"github.com/devilsfang/nuclei/v3/pkg/operators"
+	"github.com/devilsfang/nuclei/v3/pkg/output"
+	"github.com/devilsfang/nuclei/v3/pkg/protocols"
+	"github.com/devilsfang/nuclei/v3/pkg/protocols/common/utils/vardump"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/utils/vardump"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )

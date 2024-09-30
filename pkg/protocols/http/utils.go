@@ -4,7 +4,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/devilsfang/nuclei/v3/pkg/protocols/common/generators"
 	"github.com/projectdiscovery/rawhttp"
 	errorutil "github.com/projectdiscovery/utils/errors"
 )

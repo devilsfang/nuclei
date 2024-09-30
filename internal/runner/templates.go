@@ -7,14 +7,14 @@ import (
 	"strings"
 
 	"github.com/alecthomas/chroma/quick"
+	"github.com/devilsfang/nuclei/v3/pkg/catalog/config"
+	"github.com/devilsfang/nuclei/v3/pkg/catalog/loader"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/logrusorgru/aurora"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/loader"
 
+	"github.com/devilsfang/nuclei/v3/pkg/templates"
+	"github.com/devilsfang/nuclei/v3/pkg/types"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
 )
 
 // log available templates for verbose (-vv)

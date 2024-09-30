@@ -7,11 +7,11 @@ import (
 	"strings"
 
 	"code.gitea.io/sdk/gitea"
+	"github.com/devilsfang/nuclei/v3/pkg/output"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/exporters/markdown/util"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/format"
+	"github.com/devilsfang/nuclei/v3/pkg/reporting/trackers/filters"
 	"github.com/pkg/errors"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/markdown/util"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/format"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/filters"
 	"github.com/projectdiscovery/retryablehttp-go"
 )
 

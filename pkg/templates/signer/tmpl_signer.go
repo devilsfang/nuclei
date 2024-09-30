@@ -14,8 +14,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/devilsfang/nuclei/v3/pkg/catalog/config"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
 	errorutil "github.com/projectdiscovery/utils/errors"
 )
 

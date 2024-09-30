@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
+	"github.com/devilsfang/nuclei/v3/pkg/protocols/common/protocolstate"
 	"github.com/lib/pq"
 	"github.com/projectdiscovery/fastdialer/fastdialer"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
 )
 
 const (

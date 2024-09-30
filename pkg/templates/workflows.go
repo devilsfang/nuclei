@@ -3,12 +3,12 @@ package templates
 import (
 	"github.com/pkg/errors"
 
+	"github.com/devilsfang/nuclei/v3/pkg/keys"
+	"github.com/devilsfang/nuclei/v3/pkg/model"
+	"github.com/devilsfang/nuclei/v3/pkg/protocols"
+	"github.com/devilsfang/nuclei/v3/pkg/utils/stats"
+	"github.com/devilsfang/nuclei/v3/pkg/workflows"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/keys"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/utils/stats"
-	"github.com/projectdiscovery/nuclei/v3/pkg/workflows"
 )
 
 // compileWorkflow compiles the workflow for execution

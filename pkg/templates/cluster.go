@@ -5,14 +5,14 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/devilsfang/nuclei/v3/pkg/model"
+	"github.com/devilsfang/nuclei/v3/pkg/operators"
+	"github.com/devilsfang/nuclei/v3/pkg/output"
+	"github.com/devilsfang/nuclei/v3/pkg/protocols"
+	"github.com/devilsfang/nuclei/v3/pkg/protocols/common/helpers/writer"
+	"github.com/devilsfang/nuclei/v3/pkg/scan"
+	"github.com/devilsfang/nuclei/v3/pkg/templates/types"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/helpers/writer"
-	"github.com/projectdiscovery/nuclei/v3/pkg/scan"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
 	cryptoutil "github.com/projectdiscovery/utils/crypto"
 )
 
