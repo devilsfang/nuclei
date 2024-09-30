@@ -2,7 +2,6 @@ package pgwrap
 
 import (
 	"context"
-	"database/sql"
 	"database/sql/driver"
 	"net"
 	"time"
@@ -48,6 +47,7 @@ func (d PgDriver) Open(name string) (driver.Conn, error) {
 	return pq.DialOpen(&pgDial{fd: protocolstate.Dialer}, name)
 }
 
-func init() {
-	sql.Register(PGWrapDriver, &PgDriver{})
-}
+//
+//func init() {
+//	sql.Register(PGWrapDriver, &PgDriver{})
+//}
